@@ -17,3 +17,4 @@ def(search)
     check_object = True
      if nothing_found Raise TypeError("Nothing Found")
      #Type error introduced to let the user know nothing was found
+"inventory" == inventory
