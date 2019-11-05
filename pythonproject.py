@@ -16,4 +16,4 @@ def(search)
 #define a function to allow user to look through items in the environment
     check_object = True
      if nothing_found Raise TypeError("Nothing Found")
-     #Type error introduced to let the user no nothing was found
+     #Type error introduced to let the user know nothing was found
