@@ -47,5 +47,6 @@ def query_yes_no(question, default="yes")
 query_yes_no("open the door")
     if True:
         "yes" = "You go through the door"
-    if False:
+    else False:
         "no" = "you stand by the door"
+#user's input will dictate the action taken by te avatar
