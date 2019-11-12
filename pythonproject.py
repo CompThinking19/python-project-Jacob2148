@@ -19,6 +19,8 @@ def(search)
      #Type error introduced to let the user know nothing was found
 "inventory" == inventory
 
+
+
 #yes and no as answers from the user to accomplish an action or not
 def query_yes_no(question, default="yes")
     if default is None:
@@ -39,3 +41,7 @@ def query_yes_no(question, default="yes")
             return valid[choice]
         else:
             sys.stdout.write("Respond with 'yes' or 'no'")
+#function to allow for yes and no responses when prompted with an applicable question
+def Intro():
+    Intro = "You wake up in a room with only a wallet in your possession, and it only contains a driver's license.  As you scan the room for trying to get your bearings you notice a door, a dresser, and a window.  Where would you like to go?"
+#intoduction to the player to describe their starting point
