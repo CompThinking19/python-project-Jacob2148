@@ -30,7 +30,7 @@ def query_yes_no(question, default="yes")
     elif default == "no":
         prompt = " [yes/NO] "
     else:
-        raise value error("invalid default answer: 'I can not do that'" % default)
+        raise value error("invalid default answer: '%s'" % default)
 
     While True:
         sys.stdout.write(question + prompt)
@@ -40,7 +40,7 @@ def query_yes_no(question, default="yes")
         elif choice in valid:
             return valid[choice]
         else:
-            sys.stdout.write("Respond with 'yes' or 'no'")
+            sys.stdout.write("Respond with 'yes' or 'no'""(or 'y' or 'n').\n")
 #function to allow for yes and no responses when prompted with an applicable question
 def Intro():
     Intro = "You wake up in a room with only a wallet in your possession, and it only contains a driver's license.  As you scan the room for trying to get your bearings you notice a door, a dresser, and a window.  Where would you like to go?"
