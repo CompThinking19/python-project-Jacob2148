@@ -47,3 +47,5 @@ def query_yes_no(question, default="yes")
 query_yes_no("open the door")
     if True:
         "yes" = "You go through the door"
+    if False:
+        "no" = "you stand by the door"
