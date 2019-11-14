@@ -49,4 +49,7 @@ query_yes_no("open the door")
         "yes" = "You go through the door"
     else False:
         "no" = "you stand by the door"
+    elif False:
+        raise TypeError = "I can not do that"
+
 #user's input will dictate the action taken by te avatar
