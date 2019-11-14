@@ -42,7 +42,7 @@ def query_yes_no(question, default="yes")
         elif choice in valid:
             return valid[choice]
         else:
-            sys.stdout.write("Respond with 'yes' or 'no'""(or 'y' or 'n').\n")
+            sys.stdout.write("Respond with 'yes' or 'no'"(or 'y' or 'n').\n")
 #function to allow for yes and no responses when prompted with an applicable question
 query_yes_no("open the door")
     if True:
