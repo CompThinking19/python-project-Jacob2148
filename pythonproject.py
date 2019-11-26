@@ -88,3 +88,13 @@ Query_yes_no("Do you want to go through the main door")
                         "yes" = "you do not have the flashlight"
             elif:
                 raise TypeError = "I can not do that"
+query_yes_no("you walk to the gate and see a pad with numbers on it.  Do you want tp type in the code")
+    if True:
+        "yes" = "you type in the code and open the gate. You have made it outside of the property"
+    else False:
+        "no" = "you chose not to enter the code"
+        Code = False
+    else False:
+        "yes" = "you do not know the code"
+    elif
+        raise TypeError = "I can not do that"
