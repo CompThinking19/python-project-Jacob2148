@@ -20,7 +20,11 @@
 # "inventory" == inventory
 
 
-
+#README
+#premise of the program is for the user to guide themselves throughout the building and out of the small courtyard through a gate
+#throughout the program a variety of actions will be asked if the user wants to participate in certain actions as they navigate through the house
+#answering yes or no will cause the user to progress further or keep them in their current state
+#after acquiring specific items they will be able to complete the objective of leaving the property
 #yes and no as answers from the user to accomplish an action or not
 
 def query_yes_no(question, default="yes")
@@ -99,6 +103,6 @@ query_yes_no("you walk to the gate and see a pad with numbers on it.  Do you wan
         Code = False
     else False:
 #added variable  depending on if the user picked up the code earlier
-        "yes" = "you do not know the code"
+        "yes" = "you do not know the code."
     elif
         raise TypeError = "I can not do that"
