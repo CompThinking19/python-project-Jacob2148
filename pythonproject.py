@@ -62,9 +62,11 @@ query_yes_no("as you go through the door, you enter a hallway. Towards the end o
         raise TypeError = "I can not do that"
 query_yes_no("standing at the door you notice a table next to it with a piece of paper and a flashlight. Did you want to investigate further")
     if True:
+#added variables depending on player's actions
         "yes" = query_yes_no("Do you want to pick up the flashlight")
             if True:
                 "yes" = query_yes_no("you pick up the flashlight.  Did you want to take the piece of paper")
+#depends on if player is accepting to take both items
 Flashlight = True
             else False:
                 "no" = query_yes_no("you leave the flashlight on the table.  Did you want to pick up the piece of paper")
@@ -85,6 +87,7 @@ Query_yes_no("Do you want to go through the main door")
                 "no" = "You still can not see"
                     else False
                     Flashlight = False
+#added variable depending on if the user has the flashlight
                         "yes" = "you do not have the flashlight"
             elif:
                 raise TypeError = "I can not do that"
@@ -95,6 +98,7 @@ query_yes_no("you walk to the gate and see a pad with numbers on it.  Do you wan
         "no" = "you chose not to enter the code"
         Code = False
     else False:
+#added variable  depending on if the user picked up the code earlier
         "yes" = "you do not know the code"
     elif
         raise TypeError = "I can not do that"
