@@ -89,7 +89,7 @@ Query_yes_no("Do you want to go through the main door")
                 "yes" = "You turn on the flashlight and can see a gate a short distance away"
             else False:
                 "no" = "You still can not see"
-                    else False
+                else False:
                     Flashlight = False
 #added variable depending on if the user has the flashlight
                         "yes" = "you do not have the flashlight"
@@ -99,10 +99,15 @@ query_yes_no("you walk to the gate and see a pad with numbers on it.  Do you wan
     if True:
         "yes" = "you type in the code and open the gate. You have made it outside of the property"
     else False:
-        "no" = "you chose not to enter the code"
+        "no" = "you chose not to enter the code"query_yes_no("do you want to head back inside thew house")
+            if True:
+                "yes" = "You walk back inside the House"
+            else False:
+                Raise TypeError = "You need to go back"
         Code = False
     else False:
 #added variable  depending on if the user picked up the code earlier
-        "yes" = "you do not know the code."
+        "yes" = "you do not know the code."query_yes_no("do you want to head back inside the house")
     elif
-        raise TypeError = "I can not do that"
+        raise TypeError = "You need to go back"
+#have both options after you need to go back string revert back to being at the main door by the table to collect missing item(s)
