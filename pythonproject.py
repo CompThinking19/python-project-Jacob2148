@@ -52,4 +52,18 @@ query_yes_no("open the door")
     elif False:
         raise TypeError = "I can not do that"
 
-#user's input will dictate the action taken by te avatar
+#user's input will dictate the action taken by the avatar
+query_yes_no("as you go through the door, you enter a hallway. Towards the end of the hallway you see a door. Do you want to walk towards the door")
+    if True:
+        "yes" = "You walk towards the end of the hallway and stand at the door at the end"
+    if False:
+        "no" = "you stay where you are"
+    if elif:
+        raise TypeError = "I can not do that"
+query_yes_no("standing at the door you notice a table next to it with a piece of paper and a flashlight. Did you want to investigate further")
+    if True:
+        "yes" = query_yes_no("Do you want to pick up the flashlight")
+            if True:
+                "yes" = query_yes_no("you pick up the flashlight.  Did you want to take the piece of paper")
+                    if True:
+                        "yes" = "you pick up the piece of paper."
