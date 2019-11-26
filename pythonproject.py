@@ -66,10 +66,17 @@ query_yes_no("standing at the door you notice a table next to it with a piece of
             if True:
                 "yes" = query_yes_no("you pick up the flashlight.  Did you want to take the piece of paper")
             else False:
-                "no" = "you leave the flashlight on the table"
+                "no" = query_yes_no("you leave the flashlight on the table.  Did you want to pick up the piece of paper")
             elif:
                 raise TypeError = "I can not do that"
                     if True:
                         "yes" = "you pick up the piece of paper which has the the numbers 0451."
                     else False:
                         "no" = "you leave the paper on the table"
+                    elif:
+                        raise TypeError = "I can not do that"
+Query_yes_no("Do you want to go through the main door")
+    if True:
+        "yes" = query_yes_no("you walk through the main door and see that its too dark to see outside, Did you want to turn on the flashlight")
+            if True:
+                "yes" = 
