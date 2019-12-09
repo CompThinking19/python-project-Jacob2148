@@ -1,0 +1,11 @@
+Comments
+You have descriptive comments throughout that adequately describe what you're hoping to do with each section of the code. A bit more "why" would have been nice.
+
+Code Quality
+There are large sections of the code where I can see what you're attempting to do and the functions you define tend to make a lot of sense. However, those functions are never actually called, and there are things like if statements where the syntax is not correct.
+
+Ambition
+I think there's the start of a great project here. Your README could have been more detailed and included a project narrative, but the content that you have gives good justification for your project.
+
+Aesthetics
+You lay out the basics of what you set out to do in the code, even if it doesn't quite operate; what's present in the file squares with the intentions in your README.
